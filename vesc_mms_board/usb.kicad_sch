@@ -2149,50 +2149,6 @@
 		)
 		(uuid "d26a6177-e58b-4b37-9c5b-6d16a68d6f86")
 	)
-	(label "USB_DOWNSTREM_D+"
-		(at 50.8 81.28 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "0a44a370-00dd-417f-8b82-ee927e0704e5")
-	)
-	(label "USB_UPSTREAM_D+"
-		(at 104.14 76.2 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0ee04a8e-a6cf-45ee-b7ff-90a40d7a7794")
-	)
-	(label "USB_DOWNSTREAM_D-"
-		(at 119.38 119.38 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "15feee91-88a0-473f-8d5b-d1984e2a2305")
-	)
-	(label "USB_UPSTREAM_D-"
-		(at 104.14 78.74 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3dfef6c7-d32c-4171-bdde-3a578ce45181")
-	)
 	(label "USB_VESC_D-"
 		(at 50.8 73.66 180)
 		(fields_autoplaced yes)
@@ -2215,28 +2171,6 @@
 		)
 		(uuid "7e08e15c-1859-476f-80c9-6b3d0ec3b7af")
 	)
-	(label "USB_UPSTREAM_D-"
-		(at 101.6 119.38 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "807b6b7d-f790-4011-ac73-953fec001fe5")
-	)
-	(label "USB_DOWNSTREAM_D+"
-		(at 119.38 111.76 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c2478672-19ca-4784-afba-9e204669f743")
-	)
 	(label "USB_VESC_D-"
 		(at 214.63 66.04 180)
 		(fields_autoplaced yes)
@@ -2247,17 +2181,6 @@
 			(justify right bottom)
 		)
 		(uuid "c6f292a6-9d11-4e71-b5aa-ef42fd0d6e39")
-	)
-	(label "USB_UPSTREAM_D+"
-		(at 101.6 111.76 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d043afa4-7676-4725-a4a7-fc4d7f81200d")
 	)
 	(label "USB_VESC_D+"
 		(at 50.8 76.2 180)
@@ -2270,16 +2193,181 @@
 		)
 		(uuid "dd8327c8-607a-4e29-9ce0-2d269998cee1")
 	)
-	(label "USB_DOWNSTREM_D-"
+	(global_label "USB_DOWNSTREAM_D-"
+		(shape input)
 		(at 50.8 78.74 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify right)
 		)
-		(uuid "df1f2717-d604-4b43-93f2-1636b16e70f0")
+		(uuid "2bc9479c-83d8-4485-ba09-54dbc908efcd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 26.7087 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB_UPSTREAM_D+"
+		(shape input)
+		(at 101.6 111.76 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3d9e53ac-0689-45e6-b9a4-d20c55db0034")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 80.2906 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB_UPSTREAM_D-"
+		(shape input)
+		(at 104.14 78.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4f3c2f11-1523-460e-989b-b21c46c97a0d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 125.4494 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB_DOWNSTREAM_D+"
+		(shape input)
+		(at 50.8 81.28 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "54ea2015-0912-46ca-96a0-a1d402ae5c89")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 26.7087 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB_UPSTREAM_D+"
+		(shape input)
+		(at 104.14 76.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "840779b6-dddc-48c1-8729-8c5e65b7a3b1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 125.4494 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB_UPSTREAM_D-"
+		(shape input)
+		(at 101.6 119.38 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "896f0fb9-b1f6-446e-881f-f07da322587f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 80.2906 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB_DOWNSTREAM_D-"
+		(shape input)
+		(at 119.38 119.38 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dc2784f3-65de-4317-8908-8f96cde8e571")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 143.4713 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB_DOWNSTREAM_D+"
+		(shape input)
+		(at 119.38 111.76 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fa277890-7408-43b6-a22d-8b1114110403")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 143.4713 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:Crystal_GND24")
@@ -2365,7 +2453,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "088c201e-c51b-48cf-a689-a26176b1b0e6")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR08"
 			(at 106.68 67.31 0)
 			(effects
 				(font
@@ -2416,7 +2504,7 @@
 		(instances
 			(project "vesc_mms_board"
 				(path "/19c3ad7a-1b7d-4298-9053-cf734bfcea10/784981f3-1636-4173-a57d-405148891330"
-					(reference "#PWR04")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -2501,7 +2589,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0d76ea98-4bc4-4525-82d2-d7c535b49103")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR010"
 			(at 132.08 73.66 0)
 			(effects
 				(font
@@ -2552,7 +2640,7 @@
 		(instances
 			(project "vesc_mms_board"
 				(path "/19c3ad7a-1b7d-4298-9053-cf734bfcea10/784981f3-1636-4173-a57d-405148891330"
-					(reference "#PWR06")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -2568,7 +2656,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "118978ee-cb04-43af-89c5-66b8dc633cd8")
-		(property "Reference" "J6"
+		(property "Reference" "J4"
 			(at 228.6 67.3099 0)
 			(effects
 				(font
@@ -2631,7 +2719,7 @@
 		(instances
 			(project "vesc_mms_board"
 				(path "/19c3ad7a-1b7d-4298-9053-cf734bfcea10/784981f3-1636-4173-a57d-405148891330"
-					(reference "J6")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -2646,7 +2734,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "272c8f8e-6e50-44d8-9157-32baa75cbc0d")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR014"
 			(at 214.63 80.01 0)
 			(effects
 				(font
@@ -2697,7 +2785,7 @@
 		(instances
 			(project "vesc_mms_board"
 				(path "/19c3ad7a-1b7d-4298-9053-cf734bfcea10/784981f3-1636-4173-a57d-405148891330"
-					(reference "#PWR022")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -2712,7 +2800,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "43417f34-606d-455f-a52d-7552c525eac0")
-		(property "Reference" "R8"
+		(property "Reference" "R13"
 			(at 110.49 114.3 90)
 			(effects
 				(font
@@ -2764,7 +2852,7 @@
 		(instances
 			(project "vesc_mms_board"
 				(path "/19c3ad7a-1b7d-4298-9053-cf734bfcea10/784981f3-1636-4173-a57d-405148891330"
-					(reference "R8")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -2780,7 +2868,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4b2f8ad3-3fcb-443e-b3b0-759b85082d91")
-		(property "Reference" "R5"
+		(property "Reference" "R11"
 			(at 53.848 78.486 90)
 			(effects
 				(font
@@ -2834,7 +2922,7 @@
 		(instances
 			(project "vesc_mms_board"
 				(path "/19c3ad7a-1b7d-4298-9053-cf734bfcea10/784981f3-1636-4173-a57d-405148891330"
-					(reference "R5")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -2918,7 +3006,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "67ae3ecb-79cd-43e5-81f0-b8ffac8e2196")
-		(property "Reference" "R6"
+		(property "Reference" "R12"
 			(at 57.658 81.28 90)
 			(effects
 				(font
@@ -2972,7 +3060,7 @@
 		(instances
 			(project "vesc_mms_board"
 				(path "/19c3ad7a-1b7d-4298-9053-cf734bfcea10/784981f3-1636-4173-a57d-405148891330"
-					(reference "R6")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -2987,7 +3075,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b29f9f58-b6ca-49cd-8290-33209d910966")
-		(property "Reference" "C3"
+		(property "Reference" "C4"
 			(at 134.62 81.28 0)
 			(effects
 				(font
@@ -3041,7 +3129,7 @@
 		(instances
 			(project "vesc_mms_board"
 				(path "/19c3ad7a-1b7d-4298-9053-cf734bfcea10/784981f3-1636-4173-a57d-405148891330"
-					(reference "C3")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -3056,7 +3144,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b3c44f64-c67e-47dc-9683-abd85a0d1683")
-		(property "Reference" "R9"
+		(property "Reference" "R14"
 			(at 110.49 121.92 90)
 			(effects
 				(font
@@ -3108,7 +3196,7 @@
 		(instances
 			(project "vesc_mms_board"
 				(path "/19c3ad7a-1b7d-4298-9053-cf734bfcea10/784981f3-1636-4173-a57d-405148891330"
-					(reference "R9")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -3123,7 +3211,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bb005cfb-dc1f-4c5d-a4e4-796ba17f8284")
-		(property "Reference" "C2"
+		(property "Reference" "C3"
 			(at 128.27 81.28 0)
 			(effects
 				(font
@@ -3177,7 +3265,7 @@
 		(instances
 			(project "vesc_mms_board"
 				(path "/19c3ad7a-1b7d-4298-9053-cf734bfcea10/784981f3-1636-4173-a57d-405148891330"
-					(reference "C2")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -3193,7 +3281,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bd6bdbe5-ef30-48fc-92a3-b3a0a2ac09e1")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR013"
 			(at 214.63 66.04 0)
 			(effects
 				(font
@@ -3243,7 +3331,7 @@
 		(instances
 			(project "vesc_mms_board"
 				(path "/19c3ad7a-1b7d-4298-9053-cf734bfcea10/784981f3-1636-4173-a57d-405148891330"
-					(reference "#PWR021")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -3258,7 +3346,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bfc7b326-4407-4414-a255-a92f300e839c")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR09"
 			(at 121.92 67.31 0)
 			(effects
 				(font
@@ -3309,7 +3397,7 @@
 		(instances
 			(project "vesc_mms_board"
 				(path "/19c3ad7a-1b7d-4298-9053-cf734bfcea10/784981f3-1636-4173-a57d-405148891330"
-					(reference "#PWR05")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -3324,7 +3412,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c08c9f0d-89dd-4b07-9897-f1d53458a928")
-		(property "Reference" "R4"
+		(property "Reference" "R10"
 			(at 58.166 76.2 90)
 			(effects
 				(font
@@ -3378,7 +3466,7 @@
 		(instances
 			(project "vesc_mms_board"
 				(path "/19c3ad7a-1b7d-4298-9053-cf734bfcea10/784981f3-1636-4173-a57d-405148891330"
-					(reference "R4")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -3462,7 +3550,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d9752447-e777-4d41-8b03-e32f42176e95")
-		(property "Reference" "R3"
+		(property "Reference" "R9"
 			(at 57.912 73.66 90)
 			(effects
 				(font
@@ -3516,7 +3604,7 @@
 		(instances
 			(project "vesc_mms_board"
 				(path "/19c3ad7a-1b7d-4298-9053-cf734bfcea10/784981f3-1636-4173-a57d-405148891330"
-					(reference "R3")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -3531,7 +3619,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f0110763-ccd7-4042-b19b-9f6a4d6fce1b")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR012"
 			(at 170.18 90.17 0)
 			(effects
 				(font
@@ -3582,7 +3670,7 @@
 		(instances
 			(project "vesc_mms_board"
 				(path "/19c3ad7a-1b7d-4298-9053-cf734bfcea10/784981f3-1636-4173-a57d-405148891330"
-					(reference "#PWR011")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -3706,7 +3794,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f7a31924-cc7a-46a3-91c8-079071a0b7f3")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR011"
 			(at 144.78 91.44 0)
 			(effects
 				(font
@@ -3757,7 +3845,7 @@
 		(instances
 			(project "vesc_mms_board"
 				(path "/19c3ad7a-1b7d-4298-9053-cf734bfcea10/784981f3-1636-4173-a57d-405148891330"
-					(reference "#PWR07")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)

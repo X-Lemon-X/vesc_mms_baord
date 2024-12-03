@@ -120,7 +120,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "419a93ac-6e56-4f60-86f6-49086d7828c6")
-		(property "Reference" "H3"
+		(property "Reference" "H1"
 			(at 39.37 176.5299 0)
 			(effects
 				(font
@@ -169,7 +169,7 @@
 		(instances
 			(project "vesc_mms_board"
 				(path "/19c3ad7a-1b7d-4298-9053-cf734bfcea10"
-					(reference "H3")
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -185,7 +185,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4e8843e5-b046-464a-b262-5b2363e0d089")
-		(property "Reference" "H7"
+		(property "Reference" "H5"
 			(at 68.58 176.5299 0)
 			(effects
 				(font
@@ -234,7 +234,7 @@
 		(instances
 			(project "vesc_mms_board"
 				(path "/19c3ad7a-1b7d-4298-9053-cf734bfcea10"
-					(reference "H7")
+					(reference "H5")
 					(unit 1)
 				)
 			)
@@ -250,7 +250,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "550032c4-a7ed-408c-bb6d-4d4a88abe6ca")
-		(property "Reference" "H6"
+		(property "Reference" "H4"
 			(at 49.53 181.6099 0)
 			(effects
 				(font
@@ -299,7 +299,7 @@
 		(instances
 			(project "vesc_mms_board"
 				(path "/19c3ad7a-1b7d-4298-9053-cf734bfcea10"
-					(reference "H6")
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -315,7 +315,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "61dbdbda-02c4-4e52-a583-644bd22008c1")
-		(property "Reference" "H9"
+		(property "Reference" "H7"
 			(at 77.47 176.5299 0)
 			(effects
 				(font
@@ -364,7 +364,7 @@
 		(instances
 			(project "vesc_mms_board"
 				(path "/19c3ad7a-1b7d-4298-9053-cf734bfcea10"
-					(reference "H9")
+					(reference "H7")
 					(unit 1)
 				)
 			)
@@ -380,7 +380,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "76cc2112-3fc4-4bb2-b170-3fad148cb35f")
-		(property "Reference" "H4"
+		(property "Reference" "H2"
 			(at 39.37 181.6099 0)
 			(effects
 				(font
@@ -429,7 +429,7 @@
 		(instances
 			(project "vesc_mms_board"
 				(path "/19c3ad7a-1b7d-4298-9053-cf734bfcea10"
-					(reference "H4")
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -445,7 +445,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8b4f3375-809d-456a-a56b-dec63fbd1a63")
-		(property "Reference" "H5"
+		(property "Reference" "H3"
 			(at 49.53 176.5299 0)
 			(effects
 				(font
@@ -494,7 +494,7 @@
 		(instances
 			(project "vesc_mms_board"
 				(path "/19c3ad7a-1b7d-4298-9053-cf734bfcea10"
-					(reference "H5")
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -510,7 +510,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "af852fab-3070-4229-add4-8e21459e9329")
-		(property "Reference" "H10"
+		(property "Reference" "H8"
 			(at 77.47 181.6099 0)
 			(effects
 				(font
@@ -559,7 +559,7 @@
 		(instances
 			(project "vesc_mms_board"
 				(path "/19c3ad7a-1b7d-4298-9053-cf734bfcea10"
-					(reference "H10")
+					(reference "H8")
 					(unit 1)
 				)
 			)
@@ -575,7 +575,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d5efa561-540b-4a71-a1f4-3fd56da4a333")
-		(property "Reference" "H8"
+		(property "Reference" "H6"
 			(at 68.58 181.6099 0)
 			(effects
 				(font
@@ -624,7 +624,7 @@
 		(instances
 			(project "vesc_mms_board"
 				(path "/19c3ad7a-1b7d-4298-9053-cf734bfcea10"
-					(reference "H8")
+					(reference "H6")
 					(unit 1)
 				)
 			)
