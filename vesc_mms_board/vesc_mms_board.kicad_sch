@@ -4,6 +4,12 @@
 	(generator_version "8.0")
 	(uuid "19c3ad7a-1b7d-4298-9053-cf734bfcea10")
 	(paper "A4")
+	(title_block
+		(title "Flipsky MMS module ")
+		(date "2024-12-14")
+		(rev "A")
+		(company "Modu System")
+	)
 	(lib_symbols
 		(symbol "Mechanical:MountingHole"
 			(pin_names
