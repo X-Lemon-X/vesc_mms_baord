@@ -3159,82 +3159,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x04")
-		(at 246.38 76.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7d34dd1a-ddbc-4d81-b1bd-a00913e59c7e")
-		(property "Reference" "J7"
-			(at 248.92 76.1999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x04"
-			(at 248.92 78.7399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
-			(at 246.38 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 246.38 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 246.38 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2094bb37-2154-4092-830f-f6c0fdf88b7d")
-		)
-		(pin "1"
-			(uuid "066447fa-4180-45b4-adbe-ea7773785bad")
-		)
-		(pin "3"
-			(uuid "f06bbdd8-33a2-4a1b-aa65-ba0d060a38a5")
-		)
-		(pin "4"
-			(uuid "577dc9a2-54b0-4e41-975a-0054cf5592ef")
-		)
-		(instances
-			(project ""
-				(path "/19c3ad7a-1b7d-4298-9053-cf734bfcea10/57d5ea5a-77df-43d7-95b9-bf9fc02879bb"
-					(reference "J7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 156.21 33.02 180)
 		(unit 1)
@@ -4036,6 +3960,82 @@
 			(project "vesc_mms_board"
 				(path "/19c3ad7a-1b7d-4298-9053-cf734bfcea10/57d5ea5a-77df-43d7-95b9-bf9fc02879bb"
 					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 246.38 78.74 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fc5a982a-02de-4742-b0a0-6380c1af8fb3")
+		(property "Reference" "J3"
+			(at 248.92 78.7401 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x04"
+			(at 248.92 76.2001 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
+			(at 246.38 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 246.38 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 246.38 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "da80b8e2-ceae-4914-aaca-011c8f7cedf4")
+		)
+		(pin "1"
+			(uuid "145ed93e-3176-4968-aa93-faf51e40f4da")
+		)
+		(pin "3"
+			(uuid "8499ee66-7768-4fba-927e-8148ace8dc23")
+		)
+		(pin "4"
+			(uuid "572a0b24-7a85-4aca-a4e4-98ad7937b6b2")
+		)
+		(instances
+			(project "vesc_mms_board"
+				(path "/19c3ad7a-1b7d-4298-9053-cf734bfcea10/57d5ea5a-77df-43d7-95b9-bf9fc02879bb"
+					(reference "J3")
 					(unit 1)
 				)
 			)

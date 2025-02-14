@@ -568,7 +568,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "vesc_mms_board.step",
       "svg": "",
       "vrml": ""
     },

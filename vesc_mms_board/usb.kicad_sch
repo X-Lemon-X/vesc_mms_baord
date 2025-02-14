@@ -2649,15 +2649,15 @@
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x05")
 		(at 226.06 68.58 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "118978ee-cb04-43af-89c5-66b8dc633cd8")
 		(property "Reference" "J4"
-			(at 228.6 67.3099 0)
+			(at 228.6 69.8501 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2666,7 +2666,7 @@
 			)
 		)
 		(property "Value" "Conn_01x05"
-			(at 228.6 69.8499 0)
+			(at 228.6 67.3101 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2674,7 +2674,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical"
 			(at 226.06 68.58 0)
 			(effects
 				(font

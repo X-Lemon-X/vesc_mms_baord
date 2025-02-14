@@ -1,11 +1,11 @@
 %TF.GenerationSoftware,KiCad,Pcbnew,8.0.7-8.0.7-0~ubuntu22.04.1*%
-%TF.CreationDate,2024-12-14T16:53:14+01:00*%
+%TF.CreationDate,2025-01-12T18:49:43+01:00*%
 %TF.ProjectId,vesc_mms_board,76657363-5f6d-46d7-935f-626f6172642e,rev?*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Other,Comment*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 8.0.7-8.0.7-0~ubuntu22.04.1) date 2024-12-14 16:53:14*
+G04 Created by KiCad (PCBNEW 8.0.7-8.0.7-0~ubuntu22.04.1) date 2025-01-12 18:49:43*
 %MOMM*%
 %LPD*%
 G01*
@@ -56,17 +56,6 @@ X132500000Y-114000000D02*
 G75*
 G02*
 X139500000Y-114000000I3500000J0D01*
-G01*
-%TO.C,H1*%
-X114300000Y-109343146D02*
-G75*
-G02*
-X105700000Y-109343146I-4300000J0D01*
-G01*
-X105700000Y-109343146D02*
-G75*
-G02*
-X114300000Y-109343146I4300000J0D01*
 G01*
 %TO.C,H4*%
 X131270563Y-92372583D02*
