@@ -835,16 +835,6 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 40.64) (xy 76.2 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6077eb44-3b17-4356-821b-47a65e78e7de")
-	)
-	(wire
-		(pts
 			(xy 130.81 48.26) (xy 137.16 48.26)
 		)
 		(stroke
@@ -912,6 +902,16 @@
 			(type default)
 		)
 		(uuid "c033c3db-3bda-48d5-a73b-39c5b1f84da0")
+	)
+	(wire
+		(pts
+			(xy 72.39 40.64) (xy 76.2 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4639f2b-a63f-46d3-86e2-7e4f6a215092")
 	)
 	(wire
 		(pts
@@ -1122,16 +1122,16 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 81.28 40.64 0)
+		(at 81.28 43.18 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "52f63eae-56dd-44c6-9b7e-60befe28fb40")
 		(property "Reference" "J5"
-			(at 83.82 40.6399 0)
+			(at 83.82 43.1801 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1140,7 +1140,7 @@
 			)
 		)
 		(property "Value" "VCC_IN"
-			(at 83.82 43.1799 0)
+			(at 83.82 40.6401 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1149,7 +1149,7 @@
 			)
 		)
 		(property "Footprint" "Connector_AMASS:AMASS_XT60PW-M_1x02_P7.20mm_Horizontal"
-			(at 81.28 40.64 0)
+			(at 81.28 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1158,7 +1158,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 81.28 40.64 0)
+			(at 81.28 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1167,7 +1167,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 81.28 40.64 0)
+			(at 81.28 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -2151,7 +2151,6 @@
 	)
 	(label "USB_VESC_D-"
 		(at 50.8 73.66 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2162,7 +2161,6 @@
 	)
 	(label "USB_VESC_D+"
 		(at 214.63 68.58 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2173,7 +2171,6 @@
 	)
 	(label "USB_VESC_D-"
 		(at 214.63 66.04 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2184,7 +2181,6 @@
 	)
 	(label "USB_VESC_D+"
 		(at 50.8 76.2 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

@@ -2184,7 +2184,6 @@
 	)
 	(label "CAN1-"
 		(at 69.85 41.91 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2195,7 +2194,6 @@
 	)
 	(label "CAN1+"
 		(at 157.48 115.57 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2206,7 +2204,6 @@
 	)
 	(label "CAN-"
 		(at 238.76 78.74 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2217,7 +2214,6 @@
 	)
 	(label "CAN2+"
 		(at 151.13 62.23 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2228,7 +2224,6 @@
 	)
 	(label "CAN1+"
 		(at 96.52 41.91 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2239,7 +2234,6 @@
 	)
 	(label "CAN2-"
 		(at 157.48 110.49 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2250,7 +2244,6 @@
 	)
 	(label "CAN2-"
 		(at 96.52 44.45 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2261,7 +2254,6 @@
 	)
 	(label "CAN1-"
 		(at 157.48 118.11 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2272,7 +2264,6 @@
 	)
 	(label "CAN+"
 		(at 238.76 76.2 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2283,7 +2274,6 @@
 	)
 	(label "CAN2+"
 		(at 86.36 109.22 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2294,7 +2284,6 @@
 	)
 	(label "CAN1+"
 		(at 86.36 116.84 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2305,7 +2294,6 @@
 	)
 	(label "CAN1+"
 		(at 156.21 26.67 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2316,7 +2304,6 @@
 	)
 	(label "CAN+"
 		(at 147.32 41.91 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2327,7 +2314,6 @@
 	)
 	(label "CAN2-"
 		(at 158.75 60.96 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2338,7 +2324,6 @@
 	)
 	(label "CAN-"
 		(at 148.59 44.45 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2349,7 +2334,6 @@
 	)
 	(label "CAN1-"
 		(at 86.36 119.38 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2360,7 +2344,6 @@
 	)
 	(label "CAN2+"
 		(at 157.48 107.95 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2371,7 +2354,6 @@
 	)
 	(label "CAN1-"
 		(at 163.83 26.67 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2382,7 +2364,6 @@
 	)
 	(label "CAN2+"
 		(at 69.85 44.45 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2393,7 +2374,6 @@
 	)
 	(label "CAN2-"
 		(at 86.36 111.76 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
